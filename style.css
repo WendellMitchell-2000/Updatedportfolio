@@ -325,28 +325,6 @@
   }  
 
 
-
-
-/* LOGO AND TEXT */
-
-.log{
-  display: flex;         
-  flex-direction: row;   
-  align-items: center;
-  
-
-
-}
-
-.logs{
-  width: 150px;
-  height: 200px;
-  margin-block: -10rem;
-  
-  
-  
-}
-
 .logsabout{
   display: flex;;
   margin-right: 80rem;
@@ -362,3 +340,43 @@
 
 
 
+/* /*----------------------------------- THIRD PAGES ------------------------------ */
+
+
+.education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: auto;
+  padding-bottom: 5rem;
+
+}
+
+.education .education-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+
+}
+
+.educaiton .education-column {
+  flex: 1 1 40rem;
+}
+
+.education-column .title {
+  font-size: 2.5rem;
+  margin: 0 0 1.5rem 2rem;
+
+}
+
+.education-column .education-box{
+  border-left: .2rem solid var(--main-color);
+
+
+}
+
+.education-box .education-content {
+  position:relative;
+  padding-left: 2rem;
+}
